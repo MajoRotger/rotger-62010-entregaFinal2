@@ -27,31 +27,31 @@
             <!-- Menu de navegacion-->
             <nav class="navbar navbar-expand-lg estilo-menu col-7">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">INICIO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="vende-bagues.html">VENDE</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="productos.html">PRODUCTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="conoceme.html">CONOCEME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">CONTACTO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="proximamente.html">
-                            <img src="../img/carrito.png" alt="carrito">
-                        </a>
-                    </li>
-                    </ul>
-                </div>
+                    <a class="navbar-brand" href="../index.html">INICIO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="vende-bagues.html">VENDE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="conoceme.html">CONOCEME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="proximamente.html">
+                                    <img src="../img/carrito.png" alt="carrito">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -118,9 +118,28 @@
                 <button class="btn-add-cart">Agregar al carrito</button>
             </div>
         </div>
-        <div class="carrito"></div>
-
         
+        <div class="count-products">
+            <span id="contador-productos"></span>
+        </div>
+
+        <div class="container-cart-products ">
+            <div class="row">
+            <div class="cart-product">
+                <div class="info-cart-product">
+                    <span class="cantidad-producto-carrito"></span>
+                    <p class="titulo-producto-carrito"></p>
+                    <span class="precio-producto-carrito"></span>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+
+        <div class="cart-total">
+            <span>Total: $ </span>
+            <span id="valor-total"></span>
+        </div>
     </main>
 
     
