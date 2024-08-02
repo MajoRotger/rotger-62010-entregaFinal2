@@ -259,6 +259,16 @@ main {
       
 }
 
+
+
+/* Contenedor principal del carrito */
+.prodEnCarrito{
+    display: grid;
+    padding: 0px 20px;
+    border: 1px solid #ddd;
+
+}
+
 /*estilos de section*/
 section {
     @include flex(space-evenly);

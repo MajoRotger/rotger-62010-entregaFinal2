@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "nombre": "Linea Bienestar",
+        "descripcion": "Crema revitalizante oliva miel y propóleo: Ayuda a restaurar la piel de tu cuerpo.",
+        "precio": 9999,
+        "imagen": "../img/crema-revitalizante-oliva-miel-propoleo.webp"
+      },
+      {
+        "nombre": "Linea Cuidado de la piel",
+        "descripcion": "Tratamiento facial de día: Un antes y un después en tu piel.",
+        "precio": 14999,
+        "imagen": "../img/tratamiento-facial-dia.webp"
+      },
+      {
+        "nombre": "Linea Bebes/Niños",
+        "descripcion": "Colonia piu donna infantil: Divertida y original.",
+        "precio": 7499,
+        "imagen": "../img/colonia-piu-donna-infantil.webp"
+      },
+      {
+        "nombre": "Fragrancias Homenajes",
+        "descripcion": "Fragrancias homenajes.",
+        "precio": 22999,
+        "imagen": "../img/homenajes.png"
+      },
+      {
+        "nombre": "Linea Cabello",
+        "descripcion": "Shampoo teatree: Ideal para cabellos grasos.",
+        "precio": 10500,
+        "imagen": "../img/shampoo-teatree.webp"
+      }
+      
+    ]
+  }
